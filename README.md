@@ -343,7 +343,14 @@
 
 </style>
 
-<img src="header.svg">
+<div align="center">
+	<br>
+	<a href="https://raw.githubusercontent.com/JainManjari/JainManjari/master/README.md">
+		<img src="header.svg" width="1000" height="1000">
+	</a>
+	<br>
+</div>
+
 <!-- <div class="body" >
      <h2 class="header animate__animated  animate__fadeInDown">
             Namaste! I am Manjari Jain <span style="font-family:serif;">-</span> <a href="http://www.thehindflora.com">TheHindFlora</a>
