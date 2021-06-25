@@ -71,6 +71,7 @@
        </div>
     </div>
     <br>
+    <br>
     <div align="center">
         <a href="https://github.com/JainManjari">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JainManjari&layout=compact&show_icons=true&theme=buefy" />
