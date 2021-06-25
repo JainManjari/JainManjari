@@ -7,12 +7,7 @@
 
     .body
     {
-        background: linear-gradient(to bottom,#F08331,#88D06D);
-        height:inherit;
-        min-height:500px;
-        width:100%;
-        padding:10px 5px 10px;
-        color:snow;
+        
     }
 
 
@@ -349,7 +344,12 @@
 </style>
 
 
-<div class="body">
+<div class="body" style="background: linear-gradient(to bottom,#F08331,#88D06D);
+        height:inherit;
+        min-height:500px;
+        width:100%;
+        padding:10px 5px 10px;
+        color:snow;">
      <h2 class="header animate__animated  animate__fadeInDown">
             Namaste! I am Manjari Jain <span style="font-family:serif;">-</span> <a href="http://www.thehindflora.com">TheHindFlora</a>
     </h2>
