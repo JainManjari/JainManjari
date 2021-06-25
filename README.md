@@ -4,8 +4,8 @@
                 width:100%;
                 padding:10px 5px 10px;
                 color:snow;">
-     <h2 class="header animate__animated  animate__fadeInDown">
-            Namaste! I am Manjari Jain <span style="font-family:serif;">-</span> <a href="http://www.thehindflora.com">TheHindFlora</a>
+     <h2 align="center">
+            Namaste! I am Manjari Jain <span style="font-family:serif;">-</span> <a href="http://www.thehindflora.com" style="color:inherit;">TheHindFlora</a>
     </h2>
     <div id="butter" class="social">
 			<ul class="horizontal center social-icons">
