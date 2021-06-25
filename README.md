@@ -1,7 +1,8 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Merienda+One&display=swap');
    
 
     .body
@@ -66,11 +67,12 @@
         display:flex;
         justify-content:center;
         min-height:300px;
-        border:1px solid;
         margin:0px auto 10px;
         flex-wrap:wrap;
         width:85%;
         box-sizing:border-box;
+        border-top:1.5px solid #57595D;
+        border-bottom:1.5px solid #57595D;
     }
 
     .intro > div
@@ -78,7 +80,6 @@
         display:flex;
         justify-content:center;
         align-items:center;
-        border: 1.5px solid black;
         margin:5px;
     }
 
@@ -106,11 +107,43 @@
         font-family: 'Newsreader', serif;
         font-size:15px;
         color:white;
-        /* animation-name:rotateInDownRight;
-        animation-duration:2s;
-        animation-delay:8s;
-        animation-fill-mode:both; */
-        
+        animation-name:fadeIn;
+        animation-duration:2.5s;
+        animation-delay:8.5s;
+        animation-fill-mode:forwards;
+        animation-timing-function:ease-in-out;
+        opacity:0.3;
+        display:flex;
+        flex-direction:column;
+    }
+
+
+    .intro .content .title
+    {
+        font-family: 'Cookie', cursive;
+        font-size:25px;
+    }
+
+    .intro .content a
+    {
+        color:inherit;
+    }
+
+    .intro .content a:hover
+    {
+        text-decoration:none;
+    }
+
+    @keyframes fadeIn
+    {
+        0%
+        {
+            opacity:0.3;
+        }
+        100%
+        {
+            opacity:1;
+        }
     }
 
     @keyframes rotateInDownLeft {
@@ -133,6 +166,7 @@
         display:flex;
         justify-content:center;
         align-items:center;
+        margin-right:30px;
         /* animation-name:rotateInDownLeft;
         animation-duration:2s;
         animation-delay:8s;
@@ -273,7 +307,7 @@
     .social .social-icons li a img:hover
     {
 
-        box-shadow: 0px 0px 6px 4px #8781B4;
+        box-shadow: 0px 0px 6px 4px lightgrey;
     }
 
     .social-icons li:nth-child(1)
@@ -343,11 +377,41 @@
            <img src="designer.gif">
        </div>
        <div class="content">
-             I am a MERN Stack developer who loves to build and design optimal websites. Due to this, I love to keep track of all the latest front-end and back-end technologies. I was enrolled in a Teaching Assistantship (FullStack Development Course) for Coding Ninjas. At the end of it, I was the top mentor. I also have created a proper working social media site from scratch (http://www.skyinyou.com).
+             <h3 class="title">
+                  UX/UI Designer <span style="font-size:32px;">|</span> Backend Developer <span style="font-size:32px;">|</span> Data Scientist
+             </h3>
              <br>
-             When I am not designing, then I have a strong passion for coding. My goto programming language is JAVA but I am also equally comfortable with Python and C/C++. I have completed my B. Tech (ECE) from VIT, Vellore, with a 9.23/10 CGPA in 2020. I was the recipient of a scholarship for my excellent academic performance for all 4 years. 
-             <br>
-             I am currently working with Bank of America as a Software Engineer. In Feb'21, I was lauded with the Bronze Medal-Internationally for my team efforts. My present role is concerned with the UI development of applications using React.
+             <div>
+                I am a <span style="font-weight:bolder;">
+                        <img src="https://img.icons8.com/color/48/000000/stack-of-paper.png" style="height:22px;"/> <span style="border-bottom:2px solid #4666FF">MERN Stack Coder</span>
+                       </span> 
+                who loves to build and design optimal websites. I have created a proper working social media site from scratch: 
+                <a href="http://www.skyinyou.com" style="font-family: 'Merienda One', cursive;">
+                    <img src="https://img.icons8.com/doodle/48/000000/internet--v1.png" style="height:22px;"/> 
+                    <span style="border-bottom:2px solid #4666FF;">Skyinyou</span>
+                </a>.
+             </div>
+             <div style="margin-top:5px">
+                   I also have explored the dimension of <span style="font-weight:bolder;">
+                        <img src="https://img.icons8.com/nolan/64/robot-3.png" style="height:22px;"/> <span style="border-bottom:2px solid #4666FF">Data Science & ML</span>
+                       </span>. Due to this, I have worked on innumerate projects such as Web Scrapping, Prediction Models, Movie Recommendation Systems, Face Recognition, Pokemon Classification, Snapchat Filters, etc.,
+             </div>
+             <div style="margin-top:5px">
+                 I have completed my B. Tech (ECE) from VIT, Vellore, with a 9.23/10 CGPA in 2020. I was the
+                 <span style="font-weight:bolder;">
+                        <span style="border-bottom:2px solid #4666FF;">recipient of a scholarship</span>
+                        <img src="https://img.icons8.com/color/48/000000/graduation-cap.png" style="height:22px;"/> 
+                       </span> 
+                 for my excellent academic performance for all 4 years. 
+             </div>
+             <div style="margin:5px 0px 10px;">
+                 I am currently working with 
+                 <span style="font-weight:bolder;">
+                       <img src="https://img.icons8.com/fluent/48/000000/bank-of-america.png" style="height:22px;"/> 
+                       <span style="border-bottom:2px solid #4666FF;"> Bank of America</span>
+                 </span>
+                  as a Software Engineer. In Feb'21, I was lauded with the Bronze Medal-Internationally for my team efforts. My present role is concerned with the UI development of applications using React.
+             </div>
        </div>
     </div>
     <div>
