@@ -26,12 +26,14 @@
                     </span>		
 	        </ul>
 	</div>
-    <div class="intro">
+    <br>
+    <div class="intro" align="center">
         <div class="img-container">
            <img src="designer.gif">
        </div>
-       <div class="content">
-             <h3 class="title">
+       <br>
+       <div class="content" align="left">
+             <h3 class="title" align="center">
                   UX/UI Designer <span style="font-size:32px;">|</span> Backend Developer <span style="font-size:32px;">|</span> Data Scientist
              </h3>
              <br>
