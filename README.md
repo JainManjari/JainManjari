@@ -7,23 +7,23 @@
      <h2 align="center">
             Namaste! I am Manjari Jain <span style="font-family:serif;">-</span> <a href="http://www.thehindflora.com" style="color:inherit;">TheHindFlora</a>
     </h2>
-    <div id="butter" class="social">
-			<ul class="horizontal center social-icons">
-					<li > <a href="https://www.linkedin.com/in/manjari-jain-3399b613a/" target="_blank"> 
+    <div class="social" align="center">
+			<ul>
+					<span > <a href="https://www.linkedin.com/in/manjari-jain-3399b613a/" target="_blank"> 
                          <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-                    </li>
-					<li> <a href="mailto:manjarijain98@gmail.com" target="_blank"> 
+                    </span>
+					<span> <a href="mailto:manjarijain98@gmail.com" target="_blank"> 
                          <img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-                    </li>
-					<li> <a href="https://www.instagram.com/thehindflora/" target="-_blank"> 
+                    </span>
+					<span> <a href="https://www.instagram.com/thehindflora/" target="-_blank"> 
                          <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-                    </li>
-					<li> <a href="https://www.quora.com/profile/Manjari-Jain-4" target="-_blank"> 
+                    </span>
+					<span> <a href="https://www.quora.com/profile/Manjari-Jain-4" target="-_blank"> 
                          <img src="https://img.icons8.com/doodle/48/000000/quora.png"/></a>
-                    </li>
-		            <li> <a href="https://github.com/JainManjari?tab=repositories" target="-_blank"> 
-                         <img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
-                    </li>		
+                    </span>
+		            <span> <a href="https://github.com/JainManjari?tab=repositories" target="-_blank"> 
+                         <img src="https://img.icons8.com/nolan/48/github.png"/></a>
+                    </span>		
 	        </ul>
 	</div>
     <div class="intro">
