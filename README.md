@@ -18,7 +18,7 @@
 					<span> <a href="https://www.quora.com/profile/Manjari-Jain-4" target="-_blank"> 
                          <img src="https://img.icons8.com/doodle/48/000000/quora.png"/></a>
                     </span>
-		            <span> <a href="https://github.com/JainManjari" target="-_blank"> 
+		            <span> <a href="https://jainmanjari.github.io/" target="-_blank"> 
                          <img src="https://img.icons8.com/nolan/48/github.png"/></a>
                     </span>		
                     <span> <a href="https://leetcode.com/u/thehindflora/" target="-_blank"> 
