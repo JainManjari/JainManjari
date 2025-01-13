@@ -5,7 +5,7 @@
                 padding:10px 5px 80px;
                 color:snow;">
      <h2 align="center">
-            Namaste, I am <span style="font-family:serif;">-</span> <a href="https://jainmanjari.github.io/" style="color:snow;">Manjari Jain!</a>
+            Namaste: I am <span style="font-family:serif;">-</span> <a href="https://jainmanjari.github.io/" style="color:snow;">Manjari Jain!</a>
     </h2>
     <div class="social" align="center">
 			<ul>
